@@ -1,0 +1,38 @@
+{
+  "name": "linkr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --watch './**/*.ts' --exec 'ts-node' src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alan-eMartin/linkr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.11.1",
+    "apollo-server": "^3.6.6",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/node": "^17.0.23",
+    "@types/validator": "^13.7.2",
+    "prisma": "^3.11.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "bugs": {
+    "url": "https://github.com/Alan-eMartin/linkr/issues"
+  },
+  "homepage": "https://github.com/Alan-eMartin/linkr#readme"
+}
